@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[obsidian-vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>obsidian-vault</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 19 Jun 2024 07:29:13 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 19 Jun 2024 07:29:10 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[DirectX]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://learn.microsoft.com/zh-cn/windows/win32/direct3dgetstarted/getting-started-with-a-directx-game" rel="noopener" class="external-link" href="https://learn.microsoft.com/zh-cn/windows/win32/direct3dgetstarted/getting-started-with-a-directx-game" target="_blank">DirectX for Windows 入门 - Win32 apps | Microsoft Learn</a>]]></description><link>docs\草稿\游戏技术\graph\directx.html</link><guid isPermaLink="false">docs/草稿/游戏技术/graph/DirectX.md</guid><pubDate>Sun, 16 Jun 2024 16:10:49 GMT</pubDate></item><item><title><![CDATA[OpenGL]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://www.opengl.org/" rel="noopener" class="external-link" href="https://www.opengl.org/" target="_blank">OpenGL - The Industry Standard for High Performance Graphics</a>]]></description><link>docs\草稿\游戏技术\graph\opengl.html</link><guid isPermaLink="false">docs/草稿/游戏技术/graph/OpenGL.md</guid><pubDate>Sun, 16 Jun 2024 16:10:05 GMT</pubDate></item><item><title><![CDATA[WebGL]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API" rel="noopener" class="external-link" href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API" target="_blank">WebGL：web 中的 2D 的 3D 图形 - Web API | MDN (mozilla.org)</a>]]></description><link>docs\草稿\游戏技术\graph\webgl.html</link><guid isPermaLink="false">docs/草稿/游戏技术/graph/WebGL.md</guid><pubDate>Sun, 16 Jun 2024 16:11:10 GMT</pubDate></item><item><title><![CDATA[game-main]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://roadmap.sh/game-developer" rel="noopener" class="external-link" href="https://roadmap.sh/game-developer" target="_blank">Game Developer Roadmap</a><br>
+<a data-tooltip-position="top" aria-label="https://roadmap.sh/server-side-game-developer" rel="noopener" class="external-link" href="https://roadmap.sh/server-side-game-developer" target="_blank">Server Side Game Developer Roadmap</a><br><br>游戏开发模式 =&gt; <a data-tooltip-position="top" aria-label="https://gameprogrammingpatterns.com/contents.html" rel="noopener" class="external-link" href="https://gameprogrammingpatterns.com/contents.html" target="_blank">Table of Contents · Game Programming Patterns</a><br><br>编程语言 =&gt; <a data-href="c" href="docs\草稿\后端\c\c.html" class="internal-link" target="_self" rel="noopener">c</a>, <a data-href="cpp" href="docs\草稿\后端\c\cpp.html" class="internal-link" target="_self" rel="noopener">cpp</a>, <a data-tooltip-position="top" aria-label="c sharp" data-href="c sharp" href="docs\草稿\后端\c\c-sharp.html" class="internal-link" target="_self" rel="noopener">c#</a>, <a data-href="rust" href="docs\草稿\后端\rust\rust.html" class="internal-link" target="_self" rel="noopener">rust</a>, <a data-href="python-main" href="docs\草稿\后端\python\python-main.html" class="internal-link" target="_self" rel="noopener">python-main</a>, <a data-href="javascript" href="docs\草稿\前端\core\javascript.html" class="internal-link" target="_self" rel="noopener">javascript</a><br>
+游戏引擎<br>
+<br><a data-href="unity" href="docs\草稿\游戏技术\unity.html" class="internal-link" target="_self" rel="noopener">unity</a>, <a data-href="unreal" href="docs\草稿\游戏技术\unreal.html" class="internal-link" target="_self" rel="noopener">unreal</a>
+<br><a data-href="godot4" href="docs\草稿\游戏技术\godot4.html" class="internal-link" target="_self" rel="noopener">godot4</a>
+<br><a data-href="rpg maker" href="docs\草稿\游戏技术\rpg-maker.html" class="internal-link" target="_self" rel="noopener">rpg maker</a><br>
+游戏数学
+<br>线性代数, 向量, 矩阵, 几何, 线性变换, 仿射空间, 仿射变换
+<br>方向 =&gt; 四元数, 欧拉角
+<br>曲线 =&gt; Spline(), hermite, bezier, Catmull-Rom
+<br>投影 =&gt; 透视, 正交<br>
+游戏物理
+<br>动力学 =&gt; 质心, 转动惯量, 加速度, joint, 力, 弹力/恢复力, 角速度, 浮力, 线速度, 摩檫力
+<br>碰撞检测<br>
+=&gt; CCD<br>
+=&gt; 窄相位<br>
+=&gt; intersection =&gt; sat &amp; 分离轴定理, GJK 算法, EPA<br>
+=&gt; 凸性, 凸, 凸包, 凹, 凸分解<br>
+=&gt; 宽相位<br>
+=&gt; 边界体积 =&gt; AABB, OBB<br>
+=&gt; 空间划分 =&gt; Sort and Sweep, BVH, DBVT<br>
+计算机图形学
+<br>光线追踪, 光栅化, 图形管线, 采样
+<br>计算机动画, 颜色, 视觉感知, Tone Reproduction
+<br>shader<br>
+=&gt; 渲染方程<br>
+=&gt; 反射 =&gt; diffuse, specular<br>
+=&gt; 映射 =&gt; texture, bump, 视差, 地平线
+<br>光照/阴影<br>
+=&gt; shadow map =&gt; 2D, cube, cascaded<br>
+=&gt; 光源 =&gt; directional light, point light, spot light, infinite light<br>
+=&gt; stencil shadows<br>
+=&gt; visibility &amp; occlusion<br>
+=&gt; 遮挡器 =&gt; fog<br>
+=&gt; culling =&gt; frustum, lighting, shadow<br>
+=&gt; clipping =&gt; polygon, polyhedron<br>
+graphics api
+<br>DirectX =&gt; HLSL
+<br>OpenGL =&gt; GLSL
+<br>WebGL, OpenGL ES, metal
+<br>vulkan =&gt; SPIR-V<br>
+游戏 ai
+<br>决策 =&gt; decision tree, state machine, behavior tree, fuzzy logic, markov system, goal oriented behavior
+<br>movement
+<br>board games =&gt; minimax, alpha-beta pruning, MCTS
+<br>决策学习, 朴素贝叶斯分类器, 决策树学习, 深度学习, 人工神经网络, 强化学习<br>
+高级渲染
+<br>实时光线追踪 =&gt; DirectX Ray Tracing(DRT), Vulkan Ray Tracing(VRT), OptiX
+<br>基于物理的渲染 =&gt; 半透明/透明度, 能量转换, 金属性, 微表面散射
+<br>]]></description><link>docs\草稿\游戏技术\game-main.html</link><guid isPermaLink="false">docs/草稿/游戏技术/game-main.md</guid><pubDate>Tue, 18 Jun 2024 05:18:45 GMT</pubDate></item><item><title><![CDATA[GDScript]]></title><description><![CDATA[ 
+ <br><br>
+内链：<a data-href="godot4" href="docs\草稿\游戏技术\godot4.html" class="internal-link" target="_self" rel="noopener">godot4</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/classes/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/classes/index.html" target="_blank">所有类 — Godot Engine (4.x) 简体中文文档</a><br><br><br><br>_GDScript 类：<br>{
+	PI: 3.14159265358979,
+	TAU: 6.28318530717959
+	INF: inf,
+	NAN: nan,
+	
+	Color8(r8: int, g8: int, b8: int, a8: int = 255) -&gt; Color,
+	assert(condition: bool, message: String = "") -&gt; void,
+	char(char: int) -&gt; String,
+	convert(what: Variant, type: int) -&gt; Variant,
+	dict_to_inst(dictionary: Dictionary) -&gt; Object,
+	get_stack() -&gt; Array,
+	inst_to_dict(instance: Object) -&gt; Dictionary,
+	is_instance_of(value: Variant, type: Variant) -&gt; bool,
+	len(variable: Variant) -&gt; int,
+	load(path: String) -&gt; Resource,
+	preload(path: String) -&gt; Resource,
+vararg func print_debug() -&gt; void,
+	print_stack() -&gt; void,
+vararg func range() -&gt; Array,
+	type_exists(type: StringName) -&gt; bool,
+}
+Run复制<br><br>_GlobalScope 类包含一些 枚举类、对象、方法<br>{
+	Side: enum
+	Corner: enum
+	Orientation: enum
+	ClockDirection: enum
+	HorizontalAlignment: enum
+	VerticalAlignment: enum
+	InlineAlignment: enum
+	EulerOrder: enum
+	Key: enum
+	KeyModifierMask: enum
+	MouseButton: enum
+	MouseButtonMask: enum
+	JoyButton: enum
+	JoyAxis: enum
+	MIDIMessage: enum
+	Error: enum
+	PropertyHint: enum
+	PropertyUsageFlags: enum
+	MethodFlags: enum
+	Variant.Type: enum
+	Variant.Operator: enum
+	Side: enum
+	Corner: enum
+	Orientation: enum
+	ClockDirection: enum
+	HorizontalAlignment: enum
+	VerticalAlignment: enum
+	InlineAlignment: enum
+	EulerOrder: enum
+	Key: enum
+	KeyModifierMask: enum
+	MouseButton: enum
+	MouseButtonMask: enum
+	JoyButton: enum
+	JoyAxis: enum
+	MIDIMessage: enum
+	Error: enum
+	PropertyHint: enum
+	PropertyUsageFlags: enum
+	MethodFlags: enum
+	
+	AudioServer: AudioServer
+	CameraServer: CameraServer
+	ClassDB: ClassDB
+	DisplayServer: DisplayServer
+	EditorInterface: EditorInterface
+	Engine: Engine
+	EngineDebugger: EngineDebugger
+	GDExtensionManager: GDExtensionManager
+	Geometry2D: Geometry2D
+	Geometry3D: Geometry3D
+	GodotSharp: GodotSharp
+	IP: IP
+	Input: Input
+	InputMap: InputMap
+	JavaClassWrapper: JavaClassWrapper
+	JavaScriptBridge: JavaScriptBridge
+	Marshalls: Marshalls
+	NavigationMeshGenerator: NavigationMeshGenerator
+	NavigationServer2D: NavigationServer2D
+	NavigationServer3D: NavigationServer3D
+	OS: OS
+	Performance: Performance
+	PhysicsServer2D: PhysicsServer2D
+	PhysicsServer2DManager: PhysicsServer2DManager
+	PhysicsServer3D: PhysicsServer3D
+	PhysicsServer3DManager: PhysicsServer3DManager
+	ProjectSettings: ProjectSettings
+	RenderingServer: RenderingServer
+	ResourceLoader: ResourceLoader
+	ResourceSaver: ResourceSaver
+	ResourceUID: ResourceUID
+	TextServerManager: TextServerManager
+	ThemeDB: ThemeDB
+	Time: Time
+	TranslationServer: TranslationServer
+	WorkerThreadPool: WorkerThreadPool
+	XRServer: XRServer
+	
+	print() -&gt; void,
+	randi() -&gt; int,
+	
+	abs(x: Variant) -&gt; Variant,
+	absf(x: float) -&gt; float,
+	absi(x: int) -&gt; int,
+	acos(x: float) -&gt; float,
+	acosh(x: float) -&gt; float,
+	angle_difference(from: float, to: float) -&gt; float,
+	asin(x: float) -&gt; float,
+	asinh(x: float) -&gt; float,
+	atan(x: float) -&gt; float,
+	atan2(y: float, x: float) -&gt; float,
+	atanh(x: float) -&gt; float,
+	bezier_derivative(start: float, control_1: float, control_2: float, end: float, t: float) -&gt; float,
+	bezier_interpolate(start: float, control_1: float, control_2: float, end: float, t: float) -&gt; float,
+	bytes_to_var(bytes: PackedByteArray) -&gt; Variant,
+	bytes_to_var_with_objects(bytes: PackedByteArray) -&gt; Variant,
+	ceil(x: Variant) -&gt; Variant,
+	ceilf(x: float) -&gt; float,
+	ceili(x: float) -&gt; int,
+	clamp(value: Variant, min: Variant, max: Variant) -&gt; Variant,
+	clampf(value: float, min: float, max: float) -&gt; float,
+	clampi(value: int, min: int, max: int) -&gt; int,
+	cos(angle_rad: float) -&gt; float,
+	cosh(x: float) -&gt; float,
+	cubic_interpolate(from: float, to: float, pre: float, post: float, weight: float) -&gt; float,
+	cubic_interpolate_angle(from: float, to: float, pre: float, post: float, weight: float) -&gt; float,
+	cubic_interpolate_angle_in_time(from: float, to: float, pre: float, post: float, weight: float, to_t: float, pre_t: float, post_t: float) -&gt; float,
+	cubic_interpolate_in_time(from: float, to: float, pre: float, post: float, weight: float, to_t: float, pre_t: float, post_t: float) -&gt; float,
+	db_to_linear(db: float) -&gt; float,
+	deg_to_rad(deg: float) -&gt; float,
+	ease(x: float, curve: float) -&gt; float,
+	error_string(error: int) -&gt; String,
+	exp(x: float) -&gt; float,
+	floor(x: Variant) -&gt; Variant,
+	floorf(x: float) -&gt; float,
+	floori(x: float) -&gt; int,
+	fmod(x: float, y: float) -&gt; float,
+	fposmod(x: float, y: float) -&gt; float,
+	hash(variable: Variant) -&gt; int,
+	instance_from_id(instance_id: int) -&gt; Object,
+	inverse_lerp(from: float, to: float, weight: float) -&gt; float,
+	is_equal_approx(a: float, b: float) -&gt; bool,
+	is_finite(x: float) -&gt; bool,
+	is_inf(x: float) -&gt; bool,
+	is_instance_id_valid(id: int) -&gt; bool,
+	is_instance_valid(instance: Variant) -&gt; bool,
+	is_nan(x: float) -&gt; bool,
+	is_same(a: Variant, b: Variant) -&gt; bool,
+	is_zero_approx(x: float) -&gt; bool,
+	lerp(from: Variant, to: Variant, weight: Variant) -&gt; Variant,
+	lerp_angle(from: float, to: float, weight: float) -&gt; float,
+	lerpf(from: float, to: float, weight: float) -&gt; float,
+	linear_to_db(lin: float) -&gt; float,
+	log(x: float) -&gt; float,
+	max() -&gt; Variant,
+	maxf(a: float, b: float) -&gt; float,
+	maxi(a: int, b: int) -&gt; int,
+	min() -&gt; Variant,
+	minf(a: float, b: float) -&gt; float,
+	mini(a: int, b: int) -&gt; int,
+	move_toward(from: float, to: float, delta: float) -&gt; float,
+	nearest_po2(value: int) -&gt; int,
+	pingpong(value: float, length: float) -&gt; float,
+	posmod(x: int, y: int) -&gt; int,
+	pow(base: float, exp: float) -&gt; float,
+	print_rich() -&gt; void,
+	print_verbose() -&gt; void,
+	printerr() -&gt; void,
+	printraw() -&gt; void,
+	prints() -&gt; void,
+	printt() -&gt; void,
+	push_error() -&gt; void,
+	push_warning() -&gt; void,
+	rad_to_deg(rad: float) -&gt; float,
+	rand_from_seed(seed: int) -&gt; PackedInt64Array,
+	randf() -&gt; float,
+	randf_range(from: float, to: float) -&gt; float,
+	randfn(mean: float, deviation: float) -&gt; float,
+	randi_range(from: int, to: int) -&gt; int,
+	randomize() -&gt; void,
+	remap(value: float, istart: float, istop: float, ostart: float, ostop: float) -&gt; float,
+	rid_allocate_id() -&gt; int,
+	rid_from_int64(base: int) -&gt; RID,
+	rotate_toward(from: float, to: float, delta: float) -&gt; float,
+	round(x: Variant) -&gt; Variant,
+	roundf(x: float) -&gt; float,
+	roundi(x: float) -&gt; int,
+	seed(base: int) -&gt; void,
+	sign(x: Variant) -&gt; Variant,
+	signf(x: float) -&gt; float,
+	signi(x: int) -&gt; int,
+	sin(angle_rad: float) -&gt; float,
+	sinh(x: float) -&gt; float,
+	smoothstep(from: float, to: float, x: float) -&gt; float,
+	snapped(x: Variant, step: Variant) -&gt; Variant,
+	snappedf(x: float, step: float) -&gt; float,
+	snappedi(x: float, step: int) -&gt; int,
+	sqrt(x: float) -&gt; float,
+	step_decimals(x: float) -&gt; int,
+	str() -&gt; String,
+	str_to_var(string: String) -&gt; Variant,
+	tan(angle_rad: float) -&gt; float,
+	tanh(x: float) -&gt; float,
+	type_convert(variant: Variant, type: int) -&gt; Variant,
+	type_string(type: int) -&gt; String,
+	typeof(variable: Variant) -&gt; int,
+	var_to_bytes(variable: Variant) -&gt; PackedByteArray,
+	var_to_bytes_with_objects(variable: Variant) -&gt; PackedByteArray,
+	var_to_str(variable: Variant) -&gt; String,
+	weakref(obj: Variant) -&gt; Variant,
+	wrap(value: Variant, min: Variant, max: Variant) -&gt; Variant,
+	wrapf(value: float, min: float, max: float) -&gt; float,
+	wrapi(value: int, min: int, max: int) -&gt; int,
+}
+Run复制<br>注释 =&gt; @export, @export_category() 等<br><br>
+<br>Node3D, CanvasItem &lt; Node &lt; Object
+<br>Node2D, Control &lt; CanvasItem<br>
+注：Node2D 用于 2d，Node3D 用于 3d，Control 用于 UI
+<br>Sprite3D &lt; GeometryInstance3D &lt; VisualInstance3D &lt; Node3D
+<br>Sprite2D, AnimatedSprite2D, Camera2D &lt; Node2D
+<br>CollisionObject2D, CollisionShape2D, CollisionPolygon2D &lt; Node2D
+<br>PhysicsBody2D, Area2D &lt; CollisionObject2D
+<br>CharacterBody2D, RigidBody2D &lt; PhysicsBody2D
+<br>Label &lt; Control<br>
+注：CollisionObject2D 需要子节点 CollisionShape2D 或 CollisionPolygon2D 来描述其形状<br>
+注2：AnimatedSprite2D 的 sprite_frames 应为一个 SpriteFrames 实例
+<br>Object 类：<br>{
+	_init() -&gt; void,
+	emit_signal(signal: StringName) -&gt; int,
+}
+Run复制<br>Node &lt; Object 类：<br>{
+	_ready() -&gt; void,
+	// 每一帧都会调用一次
+	// @delta -&gt; 自上一帧以来经过的时间(s)
+	_process(delta: float) -&gt; void,
+	// 按下按键时调用
+	_unhandled_input(event: InputEvent) -&gt; void,
+	
+	// 设置是否启用 _process() 钩子
+	set_process(enable: bool) -&gt; void,
+	// _process() 钩子是否已启用
+	is_processing() -&gt; bool,
+	
+	// 注：`$node_path` 是 get_path('node_path') 的语法糖
+	get_node(path: NodePath) -&gt; Node,
+	
+	// 
+	queue_free() -&gt; void,
+}
+Run复制<br>CanvasItem &lt; Node 类：<br>{
+	visible: bool,
+	
+	get_viewport_rect() -&gt; Rect2,
+}
+Run复制<br>Node2D &lt; CanvasItem 类：<br>{
+	// 节点的位置向量
+	position: Vector2,
+	// 顺时针旋转角(一个 PI 为一周)
+	rotation: float,
+}
+Run复制<br>注：Node2D 的属性是响应式的，即与前端行为绑定<br>Vector2<br>{
+	x: float,
+	y: float,
+	
+	// 得到旋转变换后端向量
+	rotated(angle: float): Vector2,
+	// 得到单位向量
+	normalized() -&gt; Vector2,
+	is_normalized() -&gt; bool,
+}
+Run复制<br>Timer &lt; Node 类：<br>{
+	// 超时的信号
+	timeout: Signal,
+	
+	process_callback: int,
+	wait_time: float,
+	one_shot: bool,
+	autostart: bool,
+	
+	paused: bool,
+	time_left: float,
+}
+Run复制<br>AnimatedSprite2D 类：<br>{
+	area_entered(area: Area2D): signal,
+	area_exited(area: Area2D): signal,
+	// RigidBody2D 等实例碰撞
+	body_entered(body: Node2D): signal,
+	body_exited(body: Node2D): signal,
+	area_shape_entered(area_rid: RID, area: Area2D, area_shape_index: int, local_shape_index: int): signal,
+	area_shape_exited(area_rid: RID, area: Area2D, area_shape_index: int, local_shape_index: int): signal,
+	body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int): signal,
+	body_shape_exited(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int): signal,
+	
+	sprite_frames: SpriteFrames,
+}
+Run复制<br>CollisionObject2D 类：<br>{
+	collision_layer: int,
+	collision_mask: int,
+	collision_priority: float,
+}
+Run复制<br>RigidBody2D &lt; PhysicsBody2D &lt; CollisionObject2D 类：<br>{
+	mass: float,
+	gravity_scale: float,
+}
+Run复制<br>Path2D &lt; Node2D 类：<br>{
+	curve: Curve2D
+}
+Run复制<br>PathFollow2D &lt; Node2D 类：<br>{
+	h_offset: float,
+	v_offset: float,
+	loop: bool,
+	progress: float,
+	progress_ratio: float,
+	rotates: bool,
+}
+Run复制<br><br>
+<br>Resource &lt; RefCounted &lt; Object
+<br>PhysicsMaterial, SpriteFrames, InputEvent, Curve2D &lt; Resource
+<br>PhysicsMaterial 类：<br>{
+	absorbent: bool,
+	bounce: float,
+	friction: float,
+	rough: bool
+}
+Run复制<br>Curve2D 类：<br>{
+	bake_interval: float,
+	point_count: int
+}
+Run复制<br>PackedScene 类：<br>{
+	
+}
+Run复制<br><br><br>signal 关键字用于定义信号<br>Signal 类：<br>{
+	// 将当前信号连接到一个方法
+	connect(callable: Callable, flags: int = 0) -&gt; int,
+	// 取消一个连接
+	disconnect(callable: Callable) -&gt; void,
+	// 触发信号
+	emit() -&gt; void,
+}
+Run复制<br><br>Rect2 类：<br>{
+	size: Vector2
+}
+Run复制<br><br><br><br><br>
+<br>Node -&gt; _process()
+<br>Node2D -&gt; rotation, position
+<br>Vector2 -&gt; UP, rotated()
+<br>_GDScript -&gt; PI
+<br>extends Sprite2D
+
+var angle_speed = PI
+var forward_speed = 400
+
+func _process(delta: float) -&gt; void:
+	rotation += delta * angle_speed
+	position += delta * Vector2.UP.rotated(rotation) * forward_speed
+复制<br><br>
+<br>Node -&gt; _process()
+<br>_GlobalScope -&gt; Input
+<br>Input -&gt; is_action_pressed()
+<br>例子1 =&gt; “汽车式”移动：<br>var angle_speed = PI
+var forward_speed = 400
+
+func _process(delta: float) -&gt; void:
+	if Input.is_action_pressed('ui_left'):
+		rotation -= delta * angle_speed
+	if Input.is_action_pressed('ui_right'):
+		rotation += delta * angle_speed
+	if Input.is_action_pressed('ui_up'):
+		position += delta * Vector2.UP.rotated(rotation) * forward_speed  
+	if Input.is_action_pressed('ui_down'):  
+	    position += delta * Vector2.DOWN.rotated(rotation) * forward_speed
+	
+	# 防止越界
+	position = position.clamp(Vector2.LEFT, get_viewport_rect().size)
+复制<br>注：项目-&gt;项目设置-&gt;输入映射 可用配置与按键的映射<br>其他可用的模块：<br>
+<br>Node -&gt; _unhandled_input()
+<br>InputEvent
+<br>例子2 =&gt; “四相邻”移动：<br>func _process(delta: float) -&gt; void:
+	var vec: Vector2 = Vector2.ZERO
+	if Input.is_action_pressed('ui_left'):
+		vec += Vector2.LEFT
+	elif Input.is_action_pressed('ui_right'):
+		vec += Vector2.RIGHT
+	elif Input.is_action_pressed('ui_up'):
+		vec += Vector2.UP
+	elif Input.is_action_pressed('ui_down'):
+		vec += Vector2.DOWN
+	
+	position += delta * vec * 400
+复制<br>例子3 =&gt; 全方向移动（恒速/非恒速）：<br>func _process(delta: float) -&gt; void:
+	var vec: Vector2 = Vector2.ZERO
+	
+	if Input.is_action_pressed('ui_left'):
+		vec += Vector2.LEFT
+	if Input.is_action_pressed('ui_right'):
+		vec += Vector2.RIGHT
+	if Input.is_action_pressed('ui_up'):
+		vec += Vector2.UP
+	if Input.is_action_pressed('ui_down'):
+		vec += Vector2.DOWN
+	
+	# 非恒速
+	position += delta * vec * 400
+	# 恒速
+	position += delta * vec.normalized() * 400
+复制<br><br>例子（静态声明信号） =&gt; 场景的节点内发送信号：<br>// example.tscn
+[node name="ExampleButton" type="Button" parent="."]
+[node name="ExampleSprite2D" type="Sprite2D" parent="."]
+
+[connection signal="pressed" from="ExampleButton" to="ExampleSprite2D" method="ExampleSignalHandler"]
+复制<br>ExampleButton 按下按钮后，ExampleSprite2D 将调用 ExampleSignalHandler()<br>例子2（静态声明信号）：从 godot 编辑器 右侧的 节点 面板中设置信号接收端<br>例子3（动态声明信号）：<br>extends Sprite2D
+
+func _ready() -&gt; void:
+	var timer: Timer = get_node('MyTimer')
+	timer.timeout.connect(_on_timer_timeout)
+	
+func _on_timer_timeout():
+	visible = not visible
+复制<br>注：Timer 实例需要 autostart = true<br>例子4：<br>signal my_signal
+
+func _init():
+    my_signal.connect(my_method)
+
+# ...
+func my_func():
+	my_signal.emit()
+	# 或者
+	emit_signal('my_signal')
+复制<br><br>
+素材：<a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot-docs-project-starters/releases/download/latest-4.x/dodge_the_creeps_2d_assets.zip" rel="noopener" class="external-link" href="https://github.com/godotengine/godot-docs-project-starters/releases/download/latest-4.x/dodge_the_creeps_2d_assets.zip" target="_blank">dodge_the_creeps_2d_assets.zip</a>
+<br>在 项目-&gt;项目设置-&gt;常规-&gt;显示-&gt;窗口 将屏幕窗口大小改为 480x720<br>
+=&gt; 将 拉伸-&gt;模式 设为 canvas_items，将 拉伸-&gt;比例 设为 keep<br>涉及的场景 =&gt; Main -&gt; Player, Mob, HUD<br>Player =&gt; ]]></description><link>docs\草稿\游戏技术\gdscript.html</link><guid isPermaLink="false">docs/草稿/游戏技术/GDScript.md</guid><pubDate>Wed, 19 Jun 2024 07:26:13 GMT</pubDate></item><item><title><![CDATA[godot4]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://godotengine.org/" rel="noopener" class="external-link" href="https://godotengine.org/" target="_blank">Godot Engine - Free and open source 2D and 3D game engine</a><br><br><a data-tooltip-position="top" aria-label="https://godotengine.org/download/windows/" rel="noopener" class="external-link" href="https://godotengine.org/download/windows/" target="_blank">Download for Windows - Godot Engine</a><br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/index.html" target="_blank">GDScript</a><br>
+<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdextension/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdextension/index.html" target="_blank">GDExtension</a><br><br>
+下载：<a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_win64.exe.zip" rel="noopener" class="external-link" href="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_win64.exe.zip" target="_blank">godot engine 4.2.2</a>, <a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_mono_win64.zip" rel="noopener" class="external-link" href="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_mono_win64.zip" target="_blank">godot engine-.net 4.2.2</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/editor/project_manager.html#doc-project-manager" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/editor/project_manager.html#doc-project-manager" target="_blank">使用项目管理器 — Godot Engine (4.x) 简体中文文档</a><br>左上角<br>
+<br>scene panel(场景面板) =&gt; 控制游戏的前端对象<br>
+左下角
+<br>FileSystem(资产面板) =&gt; 管理资源文件<br>
+中间上方
+<br>viewport(视口) =&gt; 控制前端对象布局 / 编写后端脚本 / 浏览共享资产<br>
+- 有 2d / 3d / script / AssetLib 四个 tab<br>
+- 2d / 3d =&gt; 控制前端对象布局，支持对象的常见变换(位移 / 选择 / 缩放)，或其他功能<br>
+- script =&gt; 编写后端脚本（注：也可以使用 <a data-tooltip-position="top" aria-label="godot--idea" data-href="#godot--idea" href="about:blank#godot--idea" class="internal-link" target="_self" rel="noopener">idea</a> 进行编辑）<br>
+- AssetLib =&gt; 支持 浏览 / 下载 godot 社区的 插件 / 脚本 / 资产<br>
+中间下方
+<br>console(控制台) =&gt; 输出 / 调试 / 搜索结果 / 音频 / 动画 / 着色器编辑器<br>
+右侧
+<br>inspector(检察器) =&gt; 前端节点的可视化编辑
+<br>node(节点) =&gt; 信号 / 分组
+<br>history(历史) =&gt; 编辑历史<br>
+注：res:// 表示项目根目录
+<br><br>在 idea 中下载 GDScript 插件，即可在 idea 中编辑 .gd, .tscn, .godot .xxx.import 等文件<br>还可以查看 GDScript 接口<br><br>scripting workspace(脚本工作区)<br>
+animation editor(动画编辑器)<br>
+tilemap editor(图块地图编辑器)<br>
+shader editor(着色器编辑器)<br>
+debugger(调试器)<br>
+profiler(分析器)<br>本地/远程热重载<br><br><a data-tooltip-position="top" aria-label="https://github.com/vnen/godot-tiled-importer?tab=readme-ov-file" rel="noopener" class="external-link" href="https://github.com/vnen/godot-tiled-importer?tab=readme-ov-file" target="_blank">vnen/godot-tiled-importer: Plugin for Godot Engine to import Tiled Map Editor tilemaps and tilesets (github.com)</a><br><br>ctrl + shift + q =&gt; 退出项目编辑器，进入项目管理器<br>.godot 能用 godot 编辑器打开<br>
+.gd =&gt; GDScript 脚本<br>
+.tscn =&gt; 场景文件<br>ctrl+a =&gt; 添加/实例化子节点<br>
+ctrl+shift+a =&gt; 实例化场景节点<br>
+ctrl+d =&gt; 拷贝新节点<br><br><br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/godot_design_philosophy.html#the-godot-editor-is-a-godot-game" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/godot_design_philosophy.html#the-godot-editor-is-a-godot-game" target="_blank">Godot 编辑器是 Godot 游戏</a><br>
+<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/getting_started/step_by_step/instancing.html#scene-instances-as-a-design-language" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/getting_started/step_by_step/instancing.html#scene-instances-as-a-design-language" target="_blank">作为设计语言的场景实例</a><br><br><br>scene(场景)，node(节点)，scene tree(场景树)，signal(信号)<br>
+<br>场景是一棵节点数，也是特殊的节点
+<br>场景树也是节点树
+<br>信号由节点发出，由其他节点接收
+<br>节点 Node =&gt; 如：图像，声音，摄像机<br>
+注：子节点的位置默认相对于父节点？<br>脚本 =&gt; 附加到节点以扩展功能的代码<br>
+<br>GDScript
+<br>c#
+<br>GDExtension =&gt; c / c++
+<br>其他非官方语音<br>
+注：GDExtension c/c++ 用于提高性能
+<br><br><br>使用外部编辑器编辑时的常用配置：<br>
+<br>“代码热重载” =&gt; 编辑器-&gt;编辑器设置-&gt;常规-&gt;文本编辑器-&gt;行为-&gt;文件-&gt;外部修改时自动重新加载脚本
+<br><br>
+<a data-href="GDScript" href="docs\草稿\游戏技术\gdscript.html" class="internal-link" target="_self" rel="noopener">GDScript</a>
+<br>没用 extends 来继承类时，默认继承 RefCounted<br>与其他语言的共通点：<br>
+<br>java =&gt; 一个文件代表一个类
+<br>javaScript =&gt; 不严格类型
+<br>typescript =&gt; 添加类型检查
+<br>python =&gt; 缩进方式的代码风格
+<br><br>]]></description><link>docs\草稿\游戏技术\godot4.html</link><guid isPermaLink="false">docs/草稿/游戏技术/godot4.md</guid><pubDate>Wed, 19 Jun 2024 06:35:15 GMT</pubDate></item><item><title><![CDATA[godot4.x]]></title><description><![CDATA[ 
+ <br>开源游戏引擎——<a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot" rel="noopener" class="external-link" href="https://github.com/godotengine/godot" target="_blank">godotengine/godot: Godot Engine – Multi-platform 2D and 3D game engine (github.com)</a><br>
+Godot 是完全免费和开源的，在非常宽松的&nbsp;<a data-tooltip-position="top" aria-label="https://godotengine.org/license" rel="noopener" class="external-link" href="https://godotengine.org/license" target="_blank">MIT 许可</a>下. 没有附加条件，没有版税，什么都没有。用户的游戏是他们的，向下 到引擎代码的最后一行
+<br><br>文档——<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/en/latest/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/en/latest/index.html" target="_blank">Godot Docs – master branch — Godot Engine (latest) documentation in English</a><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/about/introduction.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/about/introduction.html" target="_blank">前言</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/about/list_of_features.html#" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/about/list_of_features.html#" target="_blank">特性列表</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/about/faq.html#" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/about/faq.html#" target="_blank">常见问题</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/about/complying_with_licenses.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/about/complying_with_licenses.html" target="_blank">遵守许可证</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/about/release_policy.html#" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/about/release_policy.html#" target="_blank">Godot 发布策略</a><br>
+<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/community/tutorials.html#doc-community-tutorials" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/community/tutorials.html#doc-community-tutorials" target="_blank">教程和资源 — Godot Engine (4.x) 简体中文文档</a>
+<br>社区——<a data-tooltip-position="top" aria-label="https://godotengine.org/community/" rel="noopener" class="external-link" href="https://godotengine.org/community/" target="_blank">Godot Engine - 社区</a><br>
+<br><a data-tooltip-position="top" aria-label="https://forum.godotengine.org/" rel="noopener" class="external-link" href="https://forum.godotengine.org/" target="_blank">Godot 论坛 (godotengine.org)</a>
+<br><a data-tooltip-position="top" aria-label="https://chat.godotengine.org/home" rel="noopener" class="external-link" href="https://chat.godotengine.org/home" target="_blank">Godot Contributors Chat (godotengine.org)</a>
+<br><a data-tooltip-position="top" aria-label="https://godotengine.org/asset-library/asset" rel="noopener" class="external-link" href="https://godotengine.org/asset-library/asset" target="_blank">资源库 AssetLib</a>——一个用户提交的 Godot 附加组件、脚本、工具和其他资源的仓库
+<br>成品示例：<br>
+<br>Ex-Zodiac——飞机模拟器？
+<br>Helms of Fury——类似于元气骑士
+<br>Pixelorama——像素艺术绘画程序
+<br>RPG in a box——2.5D rpg 游戏引擎（体素 RPG 制作器）
+<br>其他参考：<br>
+<br><a data-tooltip-position="top" aria-label="https://gameprogrammingpatterns.com/contents.html" rel="noopener" class="external-link" href="https://gameprogrammingpatterns.com/contents.html" target="_blank">目录 ·游戏编程模式 (gameprogrammingpatterns.com)</a>
+<br><br>godot4.2.1 发行版非常简洁，只有两个 exe 文件——项目控制台，项目编辑器 <br><br>参考：<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/index.html" target="_blank">GDScript — Godot Engine (4.x) 简体中文文档</a><br><br><br>Godot 将游戏分解为可复用的场景，包括 一个角色、一个武器、一个用户界面中的菜单、一个房子、整个关卡、或者任何你能想到的东西<br><img src="https://docs.godotengine.org/zh-cn/4.x/_images/key_concepts_main_menu.webp" referrerpolicy="no-referrer"><br>
+你还可以嵌套场景。例如，你可以把你的角色放在关卡中，然后拖放一个场景作为它的子级。<br>
+<img src="https://docs.godotengine.org/zh-cn/4.x/_images/key_concepts_scene_example.webp" referrerpolicy="no-referrer"><br><br>场景由若干节点组成。节点是你的游戏最小的构件，你将其排列成树状。下面是一个人物节点的例子<br>（因此，场景就是特殊的根节点）<br>
+<img src="https://docs.godotengine.org/zh-cn/4.x/_images/key_concepts_character_nodes.webp" referrerpolicy="no-referrer"><br><img src="https://docs.godotengine.org/zh-cn/4.x/_images/key_concepts_node_menu.webp" referrerpolicy="no-referrer"><br><br>游戏的所有场景都汇集在场景树中，字面意思是一棵场景树。由于场景是节点树，因此场景树也是节点树。但是，从场景的角度来考虑你的游戏更容易，因为它们可以代表角色、武器、门或你的用户界面。<br><img src="https://docs.godotengine.org/zh-cn/4.x/_images/key_concepts_scene_tree.webp" referrerpolicy="no-referrer"><br><br>节点在发生某些事件时发出信号。此功能无需在代码中硬连接它们就能让节点相互通信。它为你提供了构建场景的灵活性。<br><img src="https://docs.godotengine.org/zh-cn/4.x/_images/key_concepts_signals.webp" referrerpolicy="no-referrer"><br>（注：信号是游戏设计模式中的观察者模式）<br><br>参考：<br>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/first_look_at_the_editor.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/first_look_at_the_editor.html" target="_blank">初识 Godot 编辑器 — Godot Engine (4.x) 简体中文文档</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/editor/index.html#toc-learn-editor" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/editor/index.html#toc-learn-editor" target="_blank">编辑器简介 — Godot Engine (4.x) 简体中文文档</a>
+<br>项目管理器有 2 个部分：本地项目、资产库项目（即社区模块——包括 godot 社区开源的 2d tools, 3d tools, shaders, 材质, 工具, scripts, 其他）<br>项目编辑器<br>
+<br>4 个主视图——2D、3D、script、AssetLib
+<br>内置参考手册——菜单栏 -&gt; 帮助 -&gt; 搜索帮助 或 F1
+<br><br>参考：<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/getting_started/step_by_step/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/getting_started/step_by_step/index.html" target="_blank">渐进式教程 — Godot Engine (4.x) 简体中文文档</a><br><br><br><br>godot 原生提供 GDScript 和 c# 两种语言，并且通过 GDExtension 技术添加了 c 和 c++ 等扩展<br>GDScript 由 Squirrel、Lua、Python 等语言中获取灵感<br>大多数脚本代码都是在调用引擎中的 C++ 代码快速算法<br>一个 Sprite2D 实例的旋转的例子：<br>extends Sprite2D
+
+var speed = 400
+var angular_speed = PI
+
+
+func _process(delta):
+	rotation += angular_speed * delta
+
+	var velocity = Vector2.UP.rotated(rotation) * speed
+
+	position += velocity * delta
+Run复制<br><br>有两个主要的工具：<br>
+<br>内置的输入回调，主要是 _unhandled_input()
+<br>Input 单例
+<br><br>信号是节点在发生特定事件时发出的消息（信号是游戏设计模式中的观察者模式）<br>例子：<br>
+<br>按下按钮，其他节点可以连接到该信号，并在事件发生时调用函数
+<br>玩家受到伤害 =&gt; 血条减少
+<br>对进入或退出游戏世界的节点、碰撞、角色进入或离开某个区域、界面元素的大小变化等等做出反应
+<br>实现信号的工作流<br>
+<br>定义信号：在节点绑定的脚本中添加 signal &lt;signal_name&gt;(&lt;args&gt;)（注：括号是可选的）
+<br>发送信号：&lt;signal_name&gt;.emit(&lt;args&gt;)
+<br>定义信号处理函数：func &lt;_on_signal_sended&gt;(&lt;args&gt;)
+<br>绑定（注册）：在 _ready() 中添加 &lt;signal_name&gt;.connected(&lt;_on_signal_sended&gt;)
+
+<br>或者，在Godot 编辑器右侧面板的节点（node）栏下双击某个信号进行绑定
+
+
+<br>注：绑定的信号可以是 Godot 内置的，也可以是第一个步骤定义的信号（内置的信号由 Godot 决定是否发送，而自定义的信号是否发送由开发者自己决定）<br>
+注2：Godot 提供的 Timer 类提供了特殊的 timout 信号，可以定时发送信号<br><br>资源：<br>
+<br><a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot-demo-projects" rel="noopener" class="external-link" href="https://github.com/godotengine/godot-demo-projects" target="_blank">仓库</a>
+<br><a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot-docs-project-starters/releases/download/latest-4.x/dodge_the_creeps_2d_assets.zip" rel="noopener" class="external-link" href="https://github.com/godotengine/godot-docs-project-starters/releases/download/latest-4.x/dodge_the_creeps_2d_assets.zip" target="_blank">素材</a>
+<br>这个游戏叫做“Dodge the Creeps!”。你的角色必须尽可能长时间移动并避开敌人。<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/gdscript_styleguide.html#doc-gdscript-styleguide" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/gdscript_styleguide.html#doc-gdscript-styleguide" target="_blank">GDScript 编写风格指南 — Godot Engine (4.x) 简体中文文档</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/c_sharp/c_sharp_style_guide.html#doc-c-sharp-styleguide" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/c_sharp/c_sharp_style_guide.html#doc-c-sharp-styleguide" target="_blank">C# 风格指南 — Godot Engine (4.x) 简体中文文档</a>
+<br><br>所有 Godot 类的祖先类<br><br><br>注：$&lt;path&gt; 等价于 get_node(&lt;path&gt;)<br><br>Sprite2D &lt;  <a data-href="#Node2D" href="about:blank#Node2D" class="internal-link" target="_self" rel="noopener">Node2D</a>, <a data-href="#CanvasItem" href="about:blank#CanvasItem" class="internal-link" target="_self" rel="noopener">CanvasItem</a><br><br><br><br><br><br><br><br><br>]]></description><link>docs\草稿\游戏技术\godot4.x.html</link><guid isPermaLink="false">docs/草稿/游戏技术/godot4.x.md</guid><pubDate>Mon, 17 Jun 2024 03:15:43 GMT</pubDate><enclosure url="https://docs.godotengine.org/zh-cn/4.x/_images/key_concepts_main_menu.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://docs.godotengine.org/zh-cn/4.x/_images/key_concepts_main_menu.webp&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[rpg in a box]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://rpginabox.com/docs/doku.php" rel="noopener" class="external-link" href="https://rpginabox.com/docs/doku.php" target="_blank">welcome [RPG in a BoxOfficial Documentation]</a><br><a data-tooltip-position="top" aria-label="https://rpginabox.com/" rel="noopener" class="external-link" href="https://rpginabox.com/" target="_blank">Home | RPG in a Box</a><br>demo =&gt; 免费<br>
+正式版 =&gt; ￥90]]></description><link>docs\草稿\游戏技术\rpg-in-a-box.html</link><guid isPermaLink="false">docs/草稿/游戏技术/rpg in a box.md</guid><pubDate>Mon, 17 Jun 2024 04:52:10 GMT</pubDate></item><item><title><![CDATA[rpg maker]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://www.rpgmakerweb.com/" rel="noopener" class="external-link" href="https://www.rpgmakerweb.com/" target="_blank">Make Your Own Game with RPG Maker (rpgmakerweb.com)</a><br><br><a data-tooltip-position="top" aria-label="https://miaowm5.github.io/RMMV-F1/" rel="noopener" class="external-link" href="https://miaowm5.github.io/RMMV-F1/" target="_blank">RPG Maker MV 帮助文档中文汉化版 (miaowm5.github.io)</a><br><a data-tooltip-position="top" aria-label="https://www.rpgmakerweb.com/downloads" rel="noopener" class="external-link" href="https://www.rpgmakerweb.com/downloads" target="_blank">下载和免费试用 |角色扮演游戏制作工具 |制作自己的游戏！ (rpgmakerweb.com)</a>]]></description><link>docs\草稿\游戏技术\rpg-maker.html</link><guid isPermaLink="false">docs/草稿/游戏技术/rpg maker.md</guid><pubDate>Fri, 10 May 2024 05:45:15 GMT</pubDate></item><item><title><![CDATA[unity]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://unity.cn/" rel="noopener" class="external-link" href="https://unity.cn/" target="_blank">Unity - 实时内容开发平台 | 3D、2D、VR &amp; AR可视化</a><br><br><a data-tooltip-position="top" aria-label="https://assetstore.unity.com/packages/tools/modeling/magicavoxel-toolbox-63336" rel="noopener" class="external-link" href="https://assetstore.unity.com/packages/tools/modeling/magicavoxel-toolbox-63336" target="_blank">MagicaVoxel Toolbox | 建模 | Unity Asset Store</a>]]></description><link>docs\草稿\游戏技术\unity.html</link><guid isPermaLink="false">docs/草稿/游戏技术/unity.md</guid><pubDate>Fri, 10 May 2024 05:37:07 GMT</pubDate></item><item><title><![CDATA[unreal]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://www.unrealengine.com/zh-CN" rel="noopener" class="external-link" href="https://www.unrealengine.com/zh-CN" target="_blank">最强大的实时3D创作工具 - Unreal Engine</a><br>]]></description><link>docs\草稿\游戏技术\unreal.html</link><guid isPermaLink="false">docs/草稿/游戏技术/unreal.md</guid><pubDate>Fri, 10 May 2024 05:37:59 GMT</pubDate></item></channel></rss>
