@@ -1,4 +1,60 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[obsidian-vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>obsidian-vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 20 Jun 2024 07:14:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 20 Jun 2024 07:14:32 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[GDScript]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[obsidian-vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>obsidian-vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 20 Jun 2024 07:28:07 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 20 Jun 2024 07:28:06 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[godot4]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://godotengine.org/" rel="noopener" class="external-link" href="https://godotengine.org/" target="_blank">Godot Engine - Free and open source 2D and 3D game engine</a><br><br><a data-tooltip-position="top" aria-label="https://godotengine.org/download/windows/" rel="noopener" class="external-link" href="https://godotengine.org/download/windows/" target="_blank">Download for Windows - Godot Engine</a><br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/index.html" target="_blank">GDScript</a><br>
+<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdextension/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdextension/index.html" target="_blank">GDExtension</a><br><br>
+下载：<a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_win64.exe.zip" rel="noopener" class="external-link" href="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_win64.exe.zip" target="_blank">godot engine 4.2.2</a>, <a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_mono_win64.zip" rel="noopener" class="external-link" href="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_mono_win64.zip" target="_blank">godot engine-.net 4.2.2</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/editor/project_manager.html#doc-project-manager" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/editor/project_manager.html#doc-project-manager" target="_blank">使用项目管理器 — Godot Engine (4.x) 简体中文文档</a><br>左上角<br>
+<br>scene panel(场景面板) =&gt; 控制游戏的前端对象<br>
+左下角
+<br>FileSystem(资产面板) =&gt; 管理资源文件<br>
+中间上方
+<br>viewport(视口) =&gt; 控制前端对象布局 / 编写后端脚本 / 浏览共享资产<br>
+- 有 2d / 3d / script / AssetLib 四个 tab<br>
+- 2d / 3d =&gt; 控制前端对象布局，支持对象的常见变换(位移 / 选择 / 缩放)，或其他功能<br>
+- script =&gt; 编写后端脚本（注：也可以使用 <a data-tooltip-position="top" aria-label="godot--idea" data-href="#godot--idea" href="about:blank#godot--idea" class="internal-link" target="_self" rel="noopener">idea</a> 进行编辑）<br>
+- AssetLib =&gt; 支持 浏览 / 下载 godot 社区的 插件 / 脚本 / 资产<br>
+中间下方
+<br>console(控制台) =&gt; 输出 / 调试 / 搜索结果 / 音频 / 动画 / 着色器编辑器<br>
+右侧
+<br>inspector(检察器) =&gt; 前端节点的可视化编辑
+<br>node(节点) =&gt; 信号 / 分组
+<br>history(历史) =&gt; 编辑历史<br>
+注：res:// 表示项目根目录
+<br><br>在 idea 中下载 GDScript 插件，即可在 idea 中编辑 .gd, .tscn, .godot .xxx.import 等文件<br>还可以查看 GDScript 接口<br><br>scripting workspace(脚本工作区)<br>
+animation editor(动画编辑器)<br>
+tilemap editor(图块地图编辑器)<br>
+shader editor(着色器编辑器)<br>
+debugger(调试器)<br>
+profiler(分析器)<br>本地/远程热重载<br><br><a data-tooltip-position="top" aria-label="https://github.com/vnen/godot-tiled-importer?tab=readme-ov-file" rel="noopener" class="external-link" href="https://github.com/vnen/godot-tiled-importer?tab=readme-ov-file" target="_blank">vnen/godot-tiled-importer: Plugin for Godot Engine to import Tiled Map Editor tilemaps and tilesets (github.com)</a><br><br>ctrl + shift + q =&gt; 退出项目编辑器，进入项目管理器<br>.godot 能用 godot 编辑器打开<br>
+.gd =&gt; GDScript 脚本<br>
+.tscn =&gt; 场景文件<br>ctrl+a =&gt; 添加/实例化子节点<br>
+ctrl+shift+a =&gt; 实例化场景节点<br>
+ctrl+d =&gt; 拷贝新节点<br><br><br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/godot_design_philosophy.html#the-godot-editor-is-a-godot-game" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/godot_design_philosophy.html#the-godot-editor-is-a-godot-game" target="_blank">Godot 编辑器是 Godot 游戏</a><br>
+<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/getting_started/step_by_step/instancing.html#scene-instances-as-a-design-language" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/getting_started/step_by_step/instancing.html#scene-instances-as-a-design-language" target="_blank">作为设计语言的场景实例</a><br><br><br>scene(场景)，node(节点)，scene tree(场景树)，signal(信号)<br>
+<br>场景是一棵节点数，也是特殊的节点
+<br>场景树也是节点树
+<br>信号由节点发出，由其他节点接收
+<br>节点 Node =&gt; 如：图像，声音，摄像机<br>
+注：子节点的位置默认相对于父节点？<br>脚本 =&gt; 附加到节点以扩展功能的代码<br>
+<br>GDScript
+<br>c#
+<br>GDExtension =&gt; c / c++
+<br>其他非官方语音<br>
+注：GDExtension c/c++ 用于提高性能
+<br><br>
+内链：<a data-href="GDScript#实践" href="docs\草稿\游戏技术\gdscript.html#实践" class="internal-link" target="_self" rel="noopener">GDScript &gt; 实践</a>
+<br><br>
+参考：<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/export/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/export/index.html" target="_blank">导出 — Godot Engine (4.x) 简体中文文档</a>
+<br>构建 =&gt; 项目 &gt; 导出<br>
+注：构建前需要安装 构建模板（构建模板可能位于 C:/Users/%username%/AppData/Roaming/Godot/export_templates）<br>安卓 =&gt; 编辑器.编辑器设置.常规.导出.android 中配置 java sdk path, android sdk path, 调试密钥库（及其用户名和密码）<br><br>使用外部编辑器编辑时的常用配置：<br>
+<br>“代码热重载” =&gt; 编辑器-&gt;编辑器设置-&gt;常规-&gt;文本编辑器-&gt;行为-&gt;文件-&gt;外部修改时自动重新加载脚本
+<br><br>
+内链：<a data-href="GDScript" href="docs\草稿\游戏技术\gdscript.html" class="internal-link" target="_self" rel="noopener">GDScript</a>
+<br>没用 extends 来继承类时，默认继承 RefCounted<br>与其他语言的共通点：<br>
+<br>java =&gt; 一个文件代表一个类
+<br>javaScript =&gt; 不严格类型
+<br>typescript =&gt; 添加类型检查
+<br>python =&gt; 缩进方式的代码风格
+<br><br><br><a data-tooltip-position="top" aria-label="https://geequlim.github.io/ECMAScript/" rel="noopener" class="external-link" href="https://geequlim.github.io/ECMAScript/" target="_blank">godot for js</a>]]></description><link>docs\草稿\游戏技术\godot4.html</link><guid isPermaLink="false">docs/草稿/游戏技术/godot4.md</guid><pubDate>Thu, 20 Jun 2024 07:22:19 GMT</pubDate></item><item><title><![CDATA[GDScript]]></title><description><![CDATA[ 
  <br><br>
 内链：<a data-href="godot4" href="docs\草稿\游戏技术\godot4.html" class="internal-link" target="_self" rel="noopener">godot4</a>
 <br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/classes/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/classes/index.html" target="_blank">所有类 — Godot Engine (4.x) 简体中文文档</a><br><br><br><br>_GDScript 类：<br>{
@@ -498,63 +554,7 @@ congratulations：完成该 demo 时写下了 800 行文档
 <br>在 项目-&gt;项目设置-&gt;常规-&gt;显示-&gt;窗口 将屏幕窗口大小改为 480x720<br>
 =&gt; 将 拉伸-&gt;模式 设为 canvas_items，将 拉伸-&gt;比例 设为 keep<br>涉及的场景 =&gt; Main -&gt; Player, Mob, HUD<br>Player =&gt; <br><br>
 素材：<a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot-3d-dodge-the-creeps/releases/tag/1.1.0" rel="noopener" class="external-link" href="https://github.com/godotengine/godot-3d-dodge-the-creeps/releases/tag/1.1.0" target="_blank">Squash the Creeps 资产</a>
-<br>]]></description><link>docs\草稿\游戏技术\gdscript.html</link><guid isPermaLink="false">docs/草稿/游戏技术/GDScript.md</guid><pubDate>Thu, 20 Jun 2024 02:18:08 GMT</pubDate></item><item><title><![CDATA[godot4]]></title><description><![CDATA[ 
- <br><a data-tooltip-position="top" aria-label="https://godotengine.org/" rel="noopener" class="external-link" href="https://godotengine.org/" target="_blank">Godot Engine - Free and open source 2D and 3D game engine</a><br><br><a data-tooltip-position="top" aria-label="https://godotengine.org/download/windows/" rel="noopener" class="external-link" href="https://godotengine.org/download/windows/" target="_blank">Download for Windows - Godot Engine</a><br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/index.html" target="_blank">GDScript</a><br>
-<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdextension/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdextension/index.html" target="_blank">GDExtension</a><br><br>
-下载：<a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_win64.exe.zip" rel="noopener" class="external-link" href="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_win64.exe.zip" target="_blank">godot engine 4.2.2</a>, <a data-tooltip-position="top" aria-label="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_mono_win64.zip" rel="noopener" class="external-link" href="https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_mono_win64.zip" target="_blank">godot engine-.net 4.2.2</a>
-<br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/editor/project_manager.html#doc-project-manager" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/editor/project_manager.html#doc-project-manager" target="_blank">使用项目管理器 — Godot Engine (4.x) 简体中文文档</a><br>左上角<br>
-<br>scene panel(场景面板) =&gt; 控制游戏的前端对象<br>
-左下角
-<br>FileSystem(资产面板) =&gt; 管理资源文件<br>
-中间上方
-<br>viewport(视口) =&gt; 控制前端对象布局 / 编写后端脚本 / 浏览共享资产<br>
-- 有 2d / 3d / script / AssetLib 四个 tab<br>
-- 2d / 3d =&gt; 控制前端对象布局，支持对象的常见变换(位移 / 选择 / 缩放)，或其他功能<br>
-- script =&gt; 编写后端脚本（注：也可以使用 <a data-tooltip-position="top" aria-label="godot--idea" data-href="#godot--idea" href="about:blank#godot--idea" class="internal-link" target="_self" rel="noopener">idea</a> 进行编辑）<br>
-- AssetLib =&gt; 支持 浏览 / 下载 godot 社区的 插件 / 脚本 / 资产<br>
-中间下方
-<br>console(控制台) =&gt; 输出 / 调试 / 搜索结果 / 音频 / 动画 / 着色器编辑器<br>
-右侧
-<br>inspector(检察器) =&gt; 前端节点的可视化编辑
-<br>node(节点) =&gt; 信号 / 分组
-<br>history(历史) =&gt; 编辑历史<br>
-注：res:// 表示项目根目录
-<br><br>在 idea 中下载 GDScript 插件，即可在 idea 中编辑 .gd, .tscn, .godot .xxx.import 等文件<br>还可以查看 GDScript 接口<br><br>scripting workspace(脚本工作区)<br>
-animation editor(动画编辑器)<br>
-tilemap editor(图块地图编辑器)<br>
-shader editor(着色器编辑器)<br>
-debugger(调试器)<br>
-profiler(分析器)<br>本地/远程热重载<br><br><a data-tooltip-position="top" aria-label="https://github.com/vnen/godot-tiled-importer?tab=readme-ov-file" rel="noopener" class="external-link" href="https://github.com/vnen/godot-tiled-importer?tab=readme-ov-file" target="_blank">vnen/godot-tiled-importer: Plugin for Godot Engine to import Tiled Map Editor tilemaps and tilesets (github.com)</a><br><br>ctrl + shift + q =&gt; 退出项目编辑器，进入项目管理器<br>.godot 能用 godot 编辑器打开<br>
-.gd =&gt; GDScript 脚本<br>
-.tscn =&gt; 场景文件<br>ctrl+a =&gt; 添加/实例化子节点<br>
-ctrl+shift+a =&gt; 实例化场景节点<br>
-ctrl+d =&gt; 拷贝新节点<br><br><br><a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/godot_design_philosophy.html#the-godot-editor-is-a-godot-game" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/godot_design_philosophy.html#the-godot-editor-is-a-godot-game" target="_blank">Godot 编辑器是 Godot 游戏</a><br>
-<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/getting_started/step_by_step/instancing.html#scene-instances-as-a-design-language" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/getting_started/step_by_step/instancing.html#scene-instances-as-a-design-language" target="_blank">作为设计语言的场景实例</a><br><br><br>scene(场景)，node(节点)，scene tree(场景树)，signal(信号)<br>
-<br>场景是一棵节点数，也是特殊的节点
-<br>场景树也是节点树
-<br>信号由节点发出，由其他节点接收
-<br>节点 Node =&gt; 如：图像，声音，摄像机<br>
-注：子节点的位置默认相对于父节点？<br>脚本 =&gt; 附加到节点以扩展功能的代码<br>
-<br>GDScript
-<br>c#
-<br>GDExtension =&gt; c / c++
-<br>其他非官方语音<br>
-注：GDExtension c/c++ 用于提高性能
-<br><br>
-内链：<a data-href="GDScript#实践" href="docs\草稿\游戏技术\gdscript.html#实践" class="internal-link" target="_self" rel="noopener">GDScript &gt; 实践</a>
-<br><br>
-参考：<a data-tooltip-position="top" aria-label="https://docs.godotengine.org/zh-cn/4.x/tutorials/export/index.html" rel="noopener" class="external-link" href="https://docs.godotengine.org/zh-cn/4.x/tutorials/export/index.html" target="_blank">导出 — Godot Engine (4.x) 简体中文文档</a>
-<br>构建 =&gt; 项目 &gt; 导出<br>
-注：构建前需要安装 构建模板（构建模板可能位于 C:/Users/%username%/AppData/Roaming/Godot/export_templates）<br>安卓 =&gt; 编辑器.编辑器设置.常规.导出.android 中配置 java sdk path, android sdk path, 调试密钥库（及其用户名和密码）<br><br>使用外部编辑器编辑时的常用配置：<br>
-<br>“代码热重载” =&gt; 编辑器-&gt;编辑器设置-&gt;常规-&gt;文本编辑器-&gt;行为-&gt;文件-&gt;外部修改时自动重新加载脚本
-<br><br>
-内链：<a data-href="GDScript" href="docs\草稿\游戏技术\gdscript.html" class="internal-link" target="_self" rel="noopener">GDScript</a>
-<br>没用 extends 来继承类时，默认继承 RefCounted<br>与其他语言的共通点：<br>
-<br>java =&gt; 一个文件代表一个类
-<br>javaScript =&gt; 不严格类型
-<br>typescript =&gt; 添加类型检查
-<br>python =&gt; 缩进方式的代码风格
-<br><br><br><a data-tooltip-position="top" aria-label="https://geequlim.github.io/ECMAScript/" rel="noopener" class="external-link" href="https://geequlim.github.io/ECMAScript/" target="_blank">godot for js</a>]]></description><link>docs\草稿\游戏技术\godot4.html</link><guid isPermaLink="false">docs/草稿/游戏技术/godot4.md</guid><pubDate>Thu, 20 Jun 2024 06:27:36 GMT</pubDate></item><item><title><![CDATA[game-main]]></title><description><![CDATA[ 
+<br>]]></description><link>docs\草稿\游戏技术\gdscript.html</link><guid isPermaLink="false">docs/草稿/游戏技术/GDScript.md</guid><pubDate>Thu, 20 Jun 2024 02:18:08 GMT</pubDate></item><item><title><![CDATA[game-main]]></title><description><![CDATA[ 
  <br><a data-tooltip-position="top" aria-label="https://roadmap.sh/game-developer" rel="noopener" class="external-link" href="https://roadmap.sh/game-developer" target="_blank">Game Developer Roadmap</a><br>
 <a data-tooltip-position="top" aria-label="https://roadmap.sh/server-side-game-developer" rel="noopener" class="external-link" href="https://roadmap.sh/server-side-game-developer" target="_blank">Server Side Game Developer Roadmap</a><br><br>游戏开发模式 =&gt; <a data-tooltip-position="top" aria-label="https://gameprogrammingpatterns.com/contents.html" rel="noopener" class="external-link" href="https://gameprogrammingpatterns.com/contents.html" target="_blank">Table of Contents · Game Programming Patterns</a><br><br>编程语言 =&gt; <a data-href="c" href="docs\草稿\后端\c\c.html" class="internal-link" target="_self" rel="noopener">c</a>, <a data-href="cpp" href="docs\草稿\后端\c\cpp.html" class="internal-link" target="_self" rel="noopener">cpp</a>, <a data-tooltip-position="top" aria-label="c sharp" data-href="c sharp" href="docs\草稿\后端\c\c-sharp.html" class="internal-link" target="_self" rel="noopener">c#</a>, <a data-href="rust" href="docs\草稿\后端\rust\rust.html" class="internal-link" target="_self" rel="noopener">rust</a>, <a data-href="python-main" href="docs\草稿\后端\python\python-main.html" class="internal-link" target="_self" rel="noopener">python-main</a>, <a data-href="javascript" href="docs\草稿\前端\core\javascript.html" class="internal-link" target="_self" rel="noopener">javascript</a><br>
 游戏引擎<br>
